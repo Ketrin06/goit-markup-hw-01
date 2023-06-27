@@ -4,151 +4,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-     <!-- site header-->
-     <header>
-        <nav>
+    <!-- site header-->
+    <header class="menu-header">
+        <nav class="main-nav">
           <!-- site logo-->
-          <a href="/">WebStudio</a>
+          <a class="main-logo link" lang="en" href="/WebStudio">WebStudio</a>
           <!-- links in site header -->
-          <ul>
-            <li><a href="">Studio</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Contacts</a></li>
+          <ul class="main-nav-items list">
+            <li class="nav-item"><a class="nav-link link" href="/Studio">Studio</a></li>
+            <li class="nav-item"><a class="nav-link link" href="/Portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link link" href="/Contacts">Contacts</a></li>
           </ul>
         </nav>
         <!-- contacts in header -->
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="contact-link"
-              >info@devstudio.com</a
-            >
+        <ul class="contact-items list">
+          <li class="contact-item">
+            <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
-            <a href="tel:+11 (000) 111-11-11" class="contact-link">+11 (000) 111-11-11</a>
+          <li class="contact-item">
+            <a class="contact-link link"  href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </header>
       <!-- background:banner/picture/video? -->
-      <main>
-        <div>
-          <section>
-            <h1>Effective Solutions
-                for Your Business</h1>
-            <button type="button">Order Service</button>
-          </section>
-        </div>
-  
-        <!-- company advantages -->
-        <section>
-          <ul>
-            <li>
-              <h3>Strategy</h3>
-              <p>
-                Our goal is to identify the business problem to walk away with the perfect and creative solution. 
-              </p>
-            </li>
-            <li>
-              <h3>Punctuality</h3>
-              <p>
-                Bring the key message to the brand's audience for the best price within the shortest possible time.
-              </p>
-            </li>
-            <li>
-              <h3>Diligence</h3>
-              <p>
-                Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
-              </p>
-            </li>
-            <li>
-              <h3>Technologies</h3>
-              <p>
-                Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
-        </section>
-        <!-- what does the company do -->
-        <section>
-          <h2>What are we doing</h2>
-          <ul>
-            <li>
-              <img
+       <main class="main-content">
+         <section class="hero">
+           <h1 class="hero-title">Effective Solutions for Your Business</h1>
+           <button class="btn-hero module-btn-hero" type="button">Order Service</button>
+         </section>
+         <!-- company advantages -->
+         <section class="section skils">
+           <ul class="skils-items list">
+             <li class="skils-item">
+               <h3 class="subtitle-skils">Strategy</h3>
+               <p class="text-skils">
+                 Our goal is to identify the business problem to walk away with the perfect and creative solution. 
+               </p>
+             </li>
+             <li class="skils-item">
+               <h3 class="subtitle-skils">Punctuality</h3>
+               <p>
+                 Bring the key message to the brand's audience for the best price within the shortest possible time.
+               </p>
+             </li>
+             <li class="skils-item">
+               <h3 class="subtitle-skils">Diligence</h3>
+               <p class="text-skils">
+                 Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
+               </p>
+             </li>
+             <li class="skils-item">
+               <h3 class="subtitle-skils">Technologies</h3>
+               <p class="text-skils">
+                 Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
+               </p>
+             </li>
+           </ul>
+         </section>
+         <!-- what does the company do -->
+         <section class="section gallery">
+           <h2 class="gallery-title">What are we doing</h2>
+           <ul class="gallery-items list">
+             <li class="gallery-item">
+               <img class="gallery-image"
                 src="./images/works-process1.jpg"
                 alt="close-up-image-programer-working-his-desk-office"
                 width="370"
-              />
-            </li>
-            <li>
-              <img
+                height="294"/>
+             </li>
+             <li class="gallery-item">
+               <img class="gallery-image"
                 src="./images/works-process2.jpg"
                 alt="web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones"
                 width="370"
-              />
-            </li>
-            <li>
-              <img
+                height="294"/>
+             </li>
+             <li class="gallery-item">
+               <img class="gallery-image"
                 src="./images/works-process3.jpg"
                 alt="creative-artist-web-design-with-working-colour-selection-graphic-tablet"
                 width="370"
-              />
-            </li>
-          </ul>
-        </section>
+                height="294"/>
+             </li>
+           </ul>
+         </section>
   
-        <!-- our team -->
-        <div>
-          <section>
-            <h2>Our Team</h2>
-            <ul>
-              <li>
+         <!-- our team -->
+         <section class="section teams">
+            <h2 class="title-teams">Our Team</h2>
+            <ul class="teams-items list">
+              <li class="teams-item">
                 <a href="">
-                  <img
+                  <img class="teams-image"
                     src="./images/foto1.jpg"
                     alt="images Mark Guerrero"
                     width="270"
+                    height="260"
                   />
                 </a>
-                <h3>Mark Guerrero</h3>
-                <p>Product Designer</p>
+                <h3 class="subtitle-teams">Mark Guerrero</h3>
+                <p class="teams-text" lang="en">Product Designer</p>
               </li>
-              <li>
+              <li class="teams-item">
                 <a href="">
-                  <img
+                  <img class="teams-image"
                     src="./images/foto2.jpg"
                     alt="images Tom Ford"
                     width="270"
+                    height="260"
                   />
                 </a>
-                <h3>Tom Ford</h3>
-                <p>Frontend Developer</p>
+                <h3 class="subtitle-teams">Tom Ford</h3>
+                <p class="teams-text" lang="en">Frontend Developer</p>
               </li>
-              <li>
+              <li class="teams-item">
                 <a href="">
-                  <img
+                  <img class="teams-image"
                     src="./images/foto3.jpg"
                     alt="images Camila Garcia "
                     width="270"
+                    height="260"
                   />
                 </a>
-                <h3>Camila Garcia</h3>
-                <p>Marketing</p>
+                <h3 class="subtitle-teams">Camila Garcia</h3>
+                <p class="teams-text" lang="en">Marketing</p>
               </li>
-              <li>
+              <li class="teams-item">
                 <a href="">
-                  <img
+                  <img class="teams-image"
                     src="./images/foto4.jpg"
                     alt="images Daniel Wilson"
                     width="270"
+                    height="260"
                   />
                 </a>
-                <h3>Daniel Wilson</h3>
-                <p>UI Designer</p>
+                <h3 class="subtitle-teams">Daniel Wilson</h3>
+                <p class="teams-text" lang="en">UI Designer</p>
               </li>
             </ul>
           </section>
-        </div>
+       </main>
+      <footer class="main-footer">
+        <a class="main-logo link" lang="en" href="/">WebStudio</a>
+        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+      </footer>
 </body>
 </html>
